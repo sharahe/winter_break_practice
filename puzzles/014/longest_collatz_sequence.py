@@ -10,4 +10,18 @@ It can be seen that this sequence (starting at 13 and finishing at 1) contains 1
 
 Which starting number, under one million, produces the longest chain?
 
-NOTE: Once the chain starts the terms are allowed to go above one million."""
+NOTE: Once the chain starts the terms are allowed to go above one million.
+"""
+long = [0]
+for n in range(1, 1000001):
+    list = [n]
+    while n != 1:
+        if n % 2 == 0:
+            n = n // 2
+            list.append(n)
+        else:
+            n = (3 * n) + 1
+            list.append(n)
+    if len(list) > len(long):
+        long = list
+print("Longest chain starts with {}".format(long[0]))
