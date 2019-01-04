@@ -110,3 +110,5 @@ for i in range(0,100):
     sum = sum + newNum
 
 print("Sum: {}".format(str(sum)[0: 10]))
+
+# TODO: talk about why this probelem exists

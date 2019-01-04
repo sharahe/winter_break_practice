@@ -25,3 +25,5 @@ for i in range(1, num):
                 print("prime is changed to {}".format(prime))
 
 print(prime)
+
+# TODO: Talk about limits math.sqrt(div)

@@ -25,3 +25,6 @@ for n in range(1, 1000001):
     if len(list) > len(long):
         long = list
 print("Longest chain starts with {}".format(long[0]))
+
+
+# TODO: Teach about caching

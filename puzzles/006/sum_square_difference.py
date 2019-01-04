@@ -24,3 +24,5 @@ for i in range(1, 101):
 sqrSum = sqrSum ** 2
 
 print(sqrSum - sumSqr)
+
+# TODO: Discuss naming conventions
