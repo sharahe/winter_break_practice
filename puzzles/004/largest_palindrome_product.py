@@ -7,6 +7,7 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 """
 
 import collections
+
 product = 0
 pal = collections.deque()
 strnum = ""
@@ -15,13 +16,13 @@ largest = 0
 
 for i in range(100, 1000):
     for j in range(100, 1000):
-        product = i*j
+        product = i * j
         strnum = str(product)
         isPal = True
         front = 0
         back = -1
-        while(isPal and front < len(strnum)):
-            if(strnum[front] == strnum[back]):
+        while (isPal and front < len(strnum)):
+            if (strnum[front] == strnum[back]):
                 front += 1
                 back -= 1
             else:
@@ -30,3 +31,5 @@ for i in range(100, 1000):
             if product > largest:
                 largest = product
         print("current largest is {}".format(largest))
+
+# TODO: Discuss loop limits

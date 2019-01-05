@@ -15,3 +15,6 @@ while count < 20:
         if(num % i == 0):
             count += 1
 print("Final is {}".format(num))
+
+
+# TODO: Discuss computational complexity
