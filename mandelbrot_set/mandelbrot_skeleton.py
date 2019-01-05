@@ -32,7 +32,7 @@ def main_loop():
         # get new area to look at
         (x1, y1), (x2, y2) = plt.ginput(2, show_clicks=True)
         # turn those coordinates into x,y coords
-        
+
 
 if __name__ == '__main__':
     main_loop()
