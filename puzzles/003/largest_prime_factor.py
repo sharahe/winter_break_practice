@@ -27,3 +27,4 @@ for i in range(1, num):
 print(prime)
 
 # TODO: Talk about limits math.sqrt(div)
+# also: round(), math.floor(), math.ceil()

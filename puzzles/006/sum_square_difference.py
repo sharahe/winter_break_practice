@@ -26,3 +26,5 @@ sqrSum = sqrSum ** 2
 print(sqrSum - sumSqr)
 
 # TODO: Discuss naming conventions
+# sqr_sum: snake case
+# sqrSum: camelCase

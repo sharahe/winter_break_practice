@@ -32,4 +32,3 @@ for i in range(100, 1000):
                 largest = product
         print("current largest is {}".format(largest))
 
-# TODO: Discuss loop limits

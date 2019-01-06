@@ -12,6 +12,9 @@ Which starting number, under one million, produces the longest chain?
 
 NOTE: Once the chain starts the terms are allowed to go above one million.
 """
+import time
+
+start = time.time()
 long = [0]
 for n in range(1, 1000001):
     list = [n]
@@ -25,6 +28,7 @@ for n in range(1, 1000001):
     if len(list) > len(long):
         long = list
 print("Longest chain starts with {}".format(long[0]))
+print("Time taken was {} seconds".format(time.time()-start))
 
-
+# Redo with dictionary caching and time the difference
 # TODO: Teach about caching
