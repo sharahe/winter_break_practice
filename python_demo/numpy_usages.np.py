@@ -4,7 +4,6 @@ from PIL import Image
 
 # if you don't have PIL then have pycharm install the package "Pillow"
 
-
 def select_value():
     my_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
     # remember 0 indexing
